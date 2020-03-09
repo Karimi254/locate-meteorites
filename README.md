@@ -2,5 +2,10 @@
 A demo project that uses python scrpt and haversine formula to locate NASA meteorites landing station.
 
 #Running
-This project requires Python 3 and the requests package
-`python3 find_meteors.py`
+First, install, pipenv. Then:
+
+```
+pipenv install
+pipenv --three
+pipenv run "python find_meteors.py"
+```
