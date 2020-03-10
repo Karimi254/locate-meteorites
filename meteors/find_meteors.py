@@ -24,6 +24,7 @@ def get_dist(meteor):
     return meteor.get('distance', math.inf)
 
 if __name__ == '__main__':
+    #set your location as a tuple og lat and long
     my_loc = (-1.300783, 36.815706)
 
     #Use NASA public API to load Meteorites data
